@@ -15,7 +15,7 @@ class MoviesViewModel {
     // dynmaic sections to avoid if else hassel  to return number of rows for each section , cells and presence of section or not
     var tableViewSections  = [TableSectionProtocol]()
     
-    let moviesSection = MoviesTableSection(elements: [], title: "Internet Movies")
+    let moviesSection = MoviesTableSection(elements: [], title: "All Movies")
     var userAddedSection : UserAddedMoviesSection?
     
     //this will be better if we used rxSwift
@@ -59,7 +59,7 @@ class MoviesViewModel {
     
     func addMovie( movie : Movie ) {
         if self.tableViewSections.count < 2 {
-            let userAddedSection = UserAddedMoviesSection(elements: [], title: "user Added")
+            let userAddedSection = UserAddedMoviesSection(elements: [], title: "Added Movies")
             self.tableViewSections.insert(userAddedSection, at: 0)
             self.userAddedSection = userAddedSection
         }

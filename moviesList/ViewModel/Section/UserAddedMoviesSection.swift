@@ -17,7 +17,7 @@ class UserAddedMoviesSection : TableSectionProtocol  {
     }
     
     func getTitle() -> String {
-        return  "Added movies"
+        return  title
     }
     
     func addElements (_ elements : [Movie] ) {
