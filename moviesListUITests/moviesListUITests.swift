@@ -68,7 +68,7 @@ class moviesListUITests: XCTestCase {
         }
         
         let tablesQuery = app.tables
-        let count = tablesQuery.tableRows.count
+        let count = tablesQuery.cells.count
         let loadedMore = count > 20
         XCTAssertTrue(loadedMore,
                       "Failure: Something went wrong.")

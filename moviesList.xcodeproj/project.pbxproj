@@ -33,6 +33,7 @@
 		58A4C8B422B50590002F8C34 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4C8B322B50590002F8C34 /* ImagePickerViewController.swift */; };
 		58A4C8B622B67355002F8C34 /* AppStoryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4C8B522B67355002F8C34 /* AppStoryboards.swift */; };
 		58A4C8B922B67952002F8C34 /* Date+toString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4C8B822B67952002F8C34 /* Date+toString.swift */; };
+		58A4C8BB22B68361002F8C34 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4C8BA22B68361002F8C34 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		58A4C8B322B50590002F8C34 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		58A4C8B522B67355002F8C34 /* AppStoryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboards.swift; sourceTree = "<group>"; };
 		58A4C8B822B67952002F8C34 /* Date+toString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+toString.swift"; sourceTree = "<group>"; };
+		58A4C8BA22B68361002F8C34 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 			children = (
 				58A4C89A22B3EADC002F8C34 /* ImageFetcher.swift */,
 				58A4C8B522B67355002F8C34 /* AppStoryboards.swift */,
+				58A4C8BA22B68361002F8C34 /* Alerts.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				58A4C85522B3CFC6002F8C34 /* AppDelegate.swift in Sources */,
 				58A4C8B922B67952002F8C34 /* Date+toString.swift in Sources */,
 				58A4C8AB22B4FBFF002F8C34 /* MoviesTableSection.swift in Sources */,
+				58A4C8BB22B68361002F8C34 /* Alerts.swift in Sources */,
 				58A4C89522B3D71D002F8C34 /* MoviesViewModel.swift in Sources */,
 				58A4C89B22B3EADC002F8C34 /* ImageFetcher.swift in Sources */,
 				58A4C8B222B4FF37002F8C34 /* AddMovieViewController.swift in Sources */,

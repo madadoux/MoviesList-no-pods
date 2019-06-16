@@ -29,6 +29,7 @@ class MoviesListViewController : UIViewController {
         }
         self.moviesViewModel.onError = {e in
             if let err = e {
+                Alerts.show(msg: err, vc: self)
                 print(err)
             }
         }
